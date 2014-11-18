@@ -2,16 +2,17 @@ Ranking-US-Hospitals
 ====================
 
 The Scripts
-===========
+-----------
+
 1. best.R finds the best hospital in a state for 1 of the three outcomes: heart attacks,
-heart failure, and pneumonia for over FOUR THOUSAND (4,000) hospitals
+heart failure, and pneumonia for over 4,000 hospitals
 2. rankhospital.R ranks hospitals by outcome (heart attacks,
-heart failure, and pneumonia) in a state for over FOUR THOUSAND (4,000) hospitals
+heart failure, and pneumonia) in a state for over 4,000 hospitals
 3. rankall.R ranks hospitals in all states by outcome (heart attacks,
-heart failure, and pneumonia) for over FOUR THOUSAND (4,000) hospitals
+heart failure, and pneumonia) for over 4,000 hospitals
 
 The Data
-========
+--------
 
 The data for this project comes from the Hospital Compare web site (http://hospitalcompare.hhs.gov) run by the U.S. Department 
 of Health and Human Services. The purpose of the web site is to provide data and information about the quality of care at over
