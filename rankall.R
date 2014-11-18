@@ -2,6 +2,18 @@
 # The function reads the outcome-of-care-measures.csv file and returns a TWO(2)-column data frame containing the hospital in EACH 
 # state that has the ranking specified in num.
 
+# Hospitals that do NOT have data on a particular outcome are excluded from the set of hospitals when deciding the rankings.
+
+# If there is MORE THAN ONE (1) hospital for a given ranking, then the hospital names are sorted in alphabetical order and the
+# FIRST (1st) hospital in that set is returned (i.e. if hospitals “b”, “c”, and “f” are tied for a given rank, then hospital 
+# “b” is returned).
+
+# The function checks the validity of its arguments. If an invalid state value is passed to rankhospital(), the function
+# throws an error via the stop() function with the exact message “invalid state”. If an invalid outcome value is passed to
+# rankhospital(), the function throws an error via the stop() function with the exact message “invalid outcome”. The num 
+# variable can take values “best”, “worst”, or an integer indicating the ranking (SMALLER numbers are better). If the number 
+# given by num is larger than the number of hospitals in that state, then the function returns NA.
+
 rankall<- function(outcome, num){
   
 bigdata<-read.csv("outcome-of-care-measures.csv", colClasses = "character", na.string = "Not Available")
