@@ -3,6 +3,10 @@
 # hospital that has the best (i.e. LOWEST) 30-day mortality for the specified outcome in that state. The hospital name is the name
 # provided in the Hospital.Name variable. The outcomes can be one of “heart attack”, “heart failure”, or “pneumonia”.
 
+# If an invalid state value is passed to best(), the function throws an error via the stop() function with the exact message
+# “invalid state”. If an invalid outcome value is passed to best(), the function throws an error via the 
+# stop() function with the exact message “invalid outcome”.
+
 
 best<-function(state, outcome){
 
