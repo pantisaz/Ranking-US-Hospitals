@@ -1,13 +1,13 @@
 Ranking-US-Hospitals
 ====================
 
-The data for this assignment come from the Hospital Compare web site (http://hospitalcompare.hhs.gov) run by the U.S. Department 
+The data for this project comes from the Hospital Compare web site (http://hospitalcompare.hhs.gov) run by the U.S. Department 
 of Health and Human Services. The purpose of the web site is to provide data and information about the quality of care at over
 FOUR THOUSAND (4,000) Medicare-certied hospitals in the U.S. This dataset essentially covers all major U.S. hospitals. This
 dataset is used for a variety of purposes, including determining whether hospitals should be fined for not providing high quality
 care to patients (see http://goo.gl/jAXFX for some background on this particular topic).
 
-The Hospital Compare web site contains a lot of data and we will only look at a small subset for this assignment. The zip file 
+The Hospital Compare web site contains a lot of data and we will only look at a small subset. The zip file 
 for this assignment contains THREE (3) files:
 
 (1) outcome-of-care-measures.csv: Contains information about THIRTY(30)-day mortality and readmission rates for heart attacks,
